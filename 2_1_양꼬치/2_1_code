@@ -1,0 +1,29 @@
+#include <string>
+#include <vector>
+#include <iostream>
+
+using namespace std;
+
+int solution(int n, int k) {
+    int answer = 0;
+    
+    if (n > 0 && n < 1000 && k >= n / 10 && k < 1000) 
+    {
+        int survice = 0;
+
+        if (n / 10 >= 1) 
+        {
+            survice = n / 10;  
+            answer = n * 12000 + k * 2000 - survice * 2000;
+        }
+        else 
+        {
+            answer = n * 12000 + k * 2000;
+        }
+    }
+    else {
+        cout << "제한사항 위반" << endl;
+    }
+    
+    return answer;
+}
