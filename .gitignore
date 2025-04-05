@@ -1,0 +1,62 @@
+# Visual Studio build folders
+Debug/
+Release/
+x64/
+ipch/
+.vs/
+
+# Build results
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.log
+*.pch
+
+# IntelliSense cache files
+*.ipch
+*.sdf
+*.opensdf
+
+# User-specific files
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+*.cache
+
+# Others
+*.ncb
+*.aps
+*.bak
+*.tmp
+
+# Don't include local config
+*.vspscc
+*_i.c
+*_p.c
+*.class
+*.psess
+*.vsp
+*.vsmdi
+*.dbmdl
+*.cachefile
+*.tss
+
+# Auto-generated files from MFC/ATL
+*.res
+*.aps
+*.rgs
+
+# CMake or other external tools (optional)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Crash dumps
+*.mdmp
